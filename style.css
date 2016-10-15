@@ -11,6 +11,8 @@
 body{
 	width: 960px;
 	background-color: #777;
+	border: solid;
+	border-color: black;
 }
 
 header {
@@ -47,7 +49,10 @@ section{
 }
 
 aside{
-	float: left;
+	clear both;
+	overflow: auto;
+	width: 33%;
+	float: right;
 	background-color: #ebebeb;
 }
 
