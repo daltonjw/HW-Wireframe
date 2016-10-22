@@ -1,22 +1,28 @@
+/*CSS Style Sheet for homework assignment 1 - wireframe*/
+
+/*setting attributes for all elements*/
 *{
 	font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
 	font-size: 18px;
 	box-sizing: border-box;
 	text-align: center;
 	color: #777;
-	/*border-color: black;*/
 }
 
-
+/*assigning attributes to body element*/
 body{
 	width: 960px;
 	background-color: #777;
+	
+	/*the following were uesd for testing purposes*/
 	/*border: solid;*/
 	/*border-color: black;*/
 }
 
+/*assigning attributes to header element*/
 header {
 	background-color: #ebebeb;
+
 	padding-top: 20px;
 	padding-bottom: 20px;
 
@@ -26,6 +32,7 @@ header {
 	margin-right: 10%;
 }
 
+/*assigning attributes to nav element*/
 nav {
 	background-color: #ebebeb;
 	padding-top: 20px;
@@ -37,69 +44,85 @@ nav {
 	margin-right: 10%;
 }
 
-
+/*assigning attributes to section element*/
 section{
 	background-color: #ebebeb;
-	float:left;
+
 	width: 495px;
+
 	padding-top: 20px;
 	padding-bottom: 10px;
+
 	margin-left: 10%;
 	margin-bottom: 5px;
-	/*border: solid;*/
-	/*border-color: black;*/
-}
 
-aside{
-
-	/*clear both;*/
-	/*overflow: auto;*/
-	width: 263px;
-	padding-top: 20px;
 	float: left;
-	margin-left: 5px;
-	margin-right: 10%;
-	background-color: #ebebeb;
+
+	/*the following were uesd for testing purposes*/
 	/*border: solid;*/
 	/*border-color: black;*/
-	padding-bottom: 152px;
 }
 
+/*assigning attributes to aside element*/
+aside{
+	width: 268px;
+	height: 174px;
+
+	padding-top: 20px;
+
+	float: left;
+
+	background-color: #ebebeb;
+
+	margin-left: 5px;
+}
+
+/*assigning attributes to article element*/
 article{
 	background-color: #777;
 	color: white;
+
 	padding-top: 10px;
 	padding-bottom: 10px;
+
 	margin: 10px;
+
+	/*the following were uesd for testing purposes*/
 	/*border: solid;*/
 	/*border-color: black;*/
 }
 
-/*.clear*/
-
+/*assigning attributes to div element*/
 div{
 	background-color: #ebebeb;
+	
 	padding: 5px 40px 5px 40px;
-	/*color: #777;*/
+	
 	margin-top: 5px;
 	margin-right: 10px;
 	margin-left: 10px;
+	
+	/*the following were uesd for testing purposes*/
 	/*border: solid;*/
 	/*border-color: black;*/
 }
 
+/*assigning attributes to any p element*/
 p{
 	background-color: #ebebeb;
+	
 	margin-top: 5px;
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	
 	padding: 5px 40px 5px 40px;
-	/*color: #777;*/
 }
 
+/*assigning attributes to footer element*/
 footer{
 	clear: both;
+
 	background-color: #ebebeb;
 	padding-top: 20px;
 	padding-bottom: 20px;
